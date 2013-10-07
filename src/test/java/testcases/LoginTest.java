@@ -33,7 +33,7 @@ public class LoginTest extends Page{
 		
 		
 		LoginPage login = PageFactory.initElements(driver, LoginPage.class);
-		LandingPage lp = login.doLogin("seleniumcoaching@gmail.com", "Selenium1234");
+		LandingPage lp = login.doLogin("seleniumcoaching@gmail.com", "abcd");
 		
 		
 	}

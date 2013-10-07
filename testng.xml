@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Suite">
+
+
+<test name="Login test">
+    <classes>
+        <class name="testcases.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="Second Test">
+    <classes>
+        <class name="testcases.UploadPicTest" ></class>  
+    </classes>
+</test>
+
+</suite>
